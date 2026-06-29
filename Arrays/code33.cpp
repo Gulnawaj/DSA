@@ -11,5 +11,8 @@ int main()
 
     cout << p2.first << " " << p2.second << endl;
 
+    pair<int , pair<int, int>> p3 = {1 , {2 ,3}};
+    cout<<p3.first<<" "<<p3.second.second;
+
     return 0;
 }
