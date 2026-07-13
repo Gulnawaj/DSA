@@ -4,6 +4,7 @@ int main(){
     string s;
     cin>>s;
     cout<<s<<endl;
-    cout<<s.length();
-    
+    cout<<s.length()<<endl;
+    cout<<s.size();
+
 }
